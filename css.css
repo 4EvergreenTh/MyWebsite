@@ -1,0 +1,54 @@
+body {
+	margin: 0px;
+	background-color: #221b13;
+}
+
+header {
+	padding: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	box-shadow: 0px 5px 20px #1a140e;
+	display: flex;
+	align-items: center;
+}
+
+h1 {
+	color: #a1170d;
+}
+
+.yellow {
+	color: #c8771c;
+}
+
+.right {
+	position: absolute;
+  	right: 0px;
+}
+
+.right > a{
+	margin-right: 50px;
+}
+
+.drunk {
+	margin-top: 50px;
+	max-width: 100%;
+  	height: auto;
+}
+
+.red {
+	background-color: #a1170d;
+}
+
+.sowhat {
+	margin-top: 70px;
+}
+
+
+
+
+
+exempleToCenter {
+	display: flex;			Flex
+	align-items: center;		Vertical
+  	justify-content: center;	Horizontal
+}
