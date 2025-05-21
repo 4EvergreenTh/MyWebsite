@@ -1,6 +1,7 @@
 body {
 	margin: 0px;
 	background-color: #221b13;
+	overflow-x: hidden;
 }
 
 header {
@@ -15,6 +16,7 @@ header {
 h1 {
 	color: #a1170d;
 }
+
 
 .yellow {
 	color: #c8771c;
@@ -40,7 +42,7 @@ h1 {
 }
 
 .sowhat {
-	margin-top: 70px;
+	margin-top: 0px;
 }
 
 .border_centered {
@@ -54,12 +56,23 @@ h1 {
 }
 
 .portrait {
-	margin: 70px;
+	margin: 100px;
+	margin-top: 0px;
 		
 }
 
 p {
-	font-size: 35px;
+	font-size: 20px;
+	padding-right: 50px;
+	text-align: justify;
+}
+
+.rightside {
+	position: relative;
+	bottom: 40px;
+	padding-left: 150px;
+	padding-right: 100px;
+
 }
 
 
