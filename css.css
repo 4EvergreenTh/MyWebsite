@@ -28,6 +28,17 @@ section {
  	width: 100%;
 }
 
+footer {
+	padding-left: 1vw;
+	padding-right: 1vw;
+}
+
+footer p {
+	color: #e9ca83;
+	display: flex;
+  	justify-content: center;
+	
+}
 
 
 
@@ -44,8 +55,13 @@ section {
 
 
 
-h1 {
+
+h1, h2 {
 	color: #a1170d;
+}
+
+a {
+	color: #c8771c;
 }
 
 
@@ -98,6 +114,12 @@ p {
 	text-align: justify;
 }
 
+button p {
+	padding-right: 0px;
+	margin: 0px;
+	font-family: impact;
+}
+
 .rightside {
 	position: relative;
 	bottom: 40px;
@@ -121,7 +143,7 @@ button {
 }
 
 button:hover {
-	color: white;
+	color: #e9ca83;
   	background-color: #c8771c;
 }
 
@@ -192,12 +214,12 @@ b {
 	}
 
 	.logo {
-		height: 40px;
+		height: 30px !important;
 		width: auto;
 	}
 
 	.insta {
-		height: 40px;
+		height: 30px;
 		width: auto;
 	}
 
