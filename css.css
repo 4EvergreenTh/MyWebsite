@@ -132,13 +132,13 @@ b {
 
 
 .logo {
-		height: 40px;
-		width: auto;
+	height: 40px;
+	width: auto;
 	}
 
-	.insta {
-		height: 40px;
-		width: auto;
+.insta {
+	height: 40px;
+	width: auto;
 	}
 
 
@@ -192,12 +192,12 @@ b {
 	}
 
 	.logo {
-		height: 60px;
+		height: 40px;
 		width: auto;
 	}
 
 	.insta {
-		height: 60px;
+		height: 40px;
 		width: auto;
 	}
 
