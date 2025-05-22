@@ -201,6 +201,13 @@ b {
 		width: auto;
 	}
 
+	.drunk {
+		background-image: url(/images/arts/IMG_1447m.png)
+    		width: set your width  ;
+    		height: set your height  ;
+		}
+
+
 
 }
 
