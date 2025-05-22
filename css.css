@@ -1,0 +1,222 @@
+html, body {
+ 	margin: 0;
+ 	padding: 0;
+  	width: 100%;
+  	height: 100%;
+}
+
+body {
+	margin: 0px;
+	background-color: #221b13;
+	overflow-x: hidden;
+}
+
+header {
+	position: sticky;
+	top: 0px;
+	background-color: #221b13;
+	z-index: 500;
+	padding: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	box-shadow: 0px 5px 20px #1a140e;
+	display: flex;
+	align-items: center;
+}
+
+section {
+ 	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+	color: #a1170d;
+}
+
+
+.yellow {
+	color: #c8771c;
+}
+
+.right {
+	position: absolute;
+  	right: 0px;
+}
+
+.right > a{
+	margin-right: 50px;
+}
+
+.drunk {
+	margin-top: 50px;
+	max-width: 100%;
+  	height: auto;
+}
+
+.red {
+	background-color: #a1170d;
+}
+
+.sowhat {
+	margin-top: 0px;
+}
+
+.border_centered {
+	margin: 70px;
+	margin-top: 0px;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	display: flex;
+	align-items: center;
+	flex-direction: row
+}
+
+.portrait {
+	margin: 100px;
+	margin-top: 0px;
+		
+}
+
+p {
+	font-size: 1em;
+	padding-right: 50px;
+	text-align: justify;
+}
+
+.rightside {
+	position: relative;
+	bottom: 40px;
+	padding-left: 150px;
+	padding-right: 100px;
+
+}
+
+button {
+	background-color: #a1170d;
+  	border: 2px solid #c8771c;
+  	padding: 20px 20px;
+	color: #c8771c;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	margin: 4px 2px;
+  	cursor: pointer;
+  	border-radius: 50%;
+	transition: 0.2s;
+}
+
+button:hover {
+	color: white;
+  	background-color: #c8771c;
+}
+
+
+b {
+	color: #c8771c;
+}
+
+
+.logo {
+		height: 40px;
+		width: auto;
+	}
+
+	.insta {
+		height: 40px;
+		width: auto;
+	}
+
+
+
+
+
+/* ------------------------------------------------------------ */
+
+
+
+/* Desktop */
+@media (max-width: 1440px) {
+
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+
+
+}
+
+/* Phone */
+@media (max-width: 600px) {
+
+	.border_centered {
+		margin: 70px;
+		margin-top: 0px;
+		padding-top: 70px;
+		padding-bottom: 70px;
+		display: flex !important;
+		align-items: center !important;
+		flex-direction: column !important;
+	}
+	
+	.portrait {
+		margin: 0px;
+		margin-top: 0px;
+	}
+
+	.rightside {
+		position: relative;
+		bottom: 40px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	p {
+		font-size: 1em;
+		padding-right: 0px;
+		text-align: justify;
+	}
+
+	.logo {
+		height: 60px;
+		width: auto;
+	}
+
+	.insta {
+		height: 60px;
+		width: auto;
+	}
+
+
+}
+
+
+/* ------------------------------------------------------------ */
+
+
+
+
+
+
+
+
+
+exempleToCenter {
+	display: flex;			Flex
+	align-items: center;		Vertical
+  	justify-content: center;	Horizontal
+}
