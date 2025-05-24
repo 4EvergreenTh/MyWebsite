@@ -29,6 +29,7 @@ section {
 }
 
 footer {
+	box-shadow: 0px 5px 30px #1a140e;
 	padding-top: 20px;
 	padding-left: 7vw;
 	padding-right: 7vw;
@@ -54,7 +55,7 @@ footer p {
 }
 
 .links {
-	color: #a3631a;
+	color: #875216;
 	transition: 0.2s;
 }
 
@@ -90,6 +91,7 @@ footer p {
 
 h1 {
 	color: #a1170d;
+	font-family: "impact";
 }
 
 a {
@@ -195,6 +197,40 @@ b {
 	height: 30px;
 	width: auto;
 	}
+
+.title {
+	font-size: 4vw;
+}
+
+.margin {
+	
+}
+
+.photo_gallery {
+	padding-left: 10vw;
+	padding-right: 10vw;
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+  		
+}
+
+.pic {
+	margin: 0.5vw;
+	border-radius: 10px;
+}
+
+#img_see_more {
+	transition: 0.5s;
+}
+
+#img_see_more:hover {
+	transform: scale(1.02);
+}
+
+
 
 
 
