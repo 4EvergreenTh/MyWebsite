@@ -29,18 +29,49 @@ section {
 }
 
 footer {
-	padding-left: 3vw;
-	padding-right: 3vw;
+	padding-top: 20px;
+	padding-left: 7vw;
+	padding-right: 7vw;
+}
+
+footer h2 {
+	color: #80170f;
+}
+
+footer p {
+	color: #543717;
+	display: flex;
+  	justify-content: center;
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+
+.footer_links {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-right: 64vw;
+}
+
+.links {
+	color: #a3631a;
+	transition: 0.2s;
+}
+
+.links:hover {
+	color: #c8771c;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+}
+
+.column {
 	display: flex;
 	flex-direction: column;
 }
 
-footer p {
-	color: #e9ca83;
-	display: flex;
-  	justify-content: center;
-	
-}
 
 
 
@@ -57,8 +88,7 @@ footer p {
 
 
 
-
-h1, h2 {
+h1 {
 	color: #a1170d;
 }
 
@@ -97,9 +127,9 @@ a {
 
 .border_centered {
 	margin: 70px;
+	margin-bottom: 0px;
 	margin-top: 0px;
 	padding-top: 70px;
-	padding-bottom: 70px;
 	display: flex;
 	align-items: center;
 	flex-direction: row
@@ -126,7 +156,7 @@ button p {
 .rightside {
 	position: relative;
 	bottom: 40px;
-	padding-left: 150px;
+	padding-left: 4vwpx;
 	padding-right: 100px;
 
 }
@@ -162,7 +192,7 @@ b {
 	}
 
 .insta {
-	height: 40px;
+	height: 30px;
 	width: auto;
 	}
 
@@ -181,6 +211,30 @@ b {
 
 /* Tablet */
 @media (max-width: 1024px) {
+	
+	.border_centered {
+		margin: 70px;
+		margin-bottom: 0px;
+		margin-top: 0px;
+		padding-top: 70px;
+		display: flex !important;
+		align-items: center !important;
+		flex-direction: column !important;
+	}
+	
+	.rightside {
+		position: relative;
+		bottom: 40px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.footer_links {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		padding-right: 50vw !important;
+	}
 
 
 }
@@ -190,9 +244,9 @@ b {
 
 	.border_centered {
 		margin: 70px;
+		margin-bottom: 0px;
 		margin-top: 0px;
 		padding-top: 70px;
-		padding-bottom: 70px;
 		display: flex !important;
 		align-items: center !important;
 		flex-direction: column !important;
@@ -223,15 +277,17 @@ b {
 	}
 
 	.insta {
-		height: 30px;
+		height: 25px;
 		width: auto;
 	}
 
-	.drunk {
-		background-image: url(/images/arts/IMG_1447m.png)
-    		width: set your width  ;
-    		height: set your height  ;
-		}
+	.footer_links {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		padding-right: 34vw !important;
+	}
+
 
 
 
